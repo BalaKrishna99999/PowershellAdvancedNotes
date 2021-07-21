@@ -1,2 +1,50 @@
-Hello bala you are back to powershell
-echo "hey how r u"
+#git essential commands
+
+git config --global user.email "ba@gmail.com"
+git config --global user.name  "BalaKrishna99999"
+
+# Goto  d drive
+cd d:
+# create a directory 
+  mkdir bala
+  
+git init 
+
+#To add local repo to remote 
+
+echo "hello bala" >> balu.txt
+
+git add .
+
+git commit -m "this was first commit maded by bala"
+
+git branch -m main (if you want to switch to branch)
+
+git remote add origin "url.git" (Establish a remote connection from local repo for the first and it wont require for every time this command for first time only)
+
+git push origin main 
+
+
+=================================================================================================
+
+# Goto  d drive
+cd d:
+# create a directory 
+  mkdir bala
+ #then goto bala
+ cd bala     then
+ 
+git clone "url"
+
+=========================================================================================================
+
+# Other commands 
+
+git status 
+
+git config --global --list
+
+git log (prints the commited history)
+
+git pull (fetch + merge)
+
